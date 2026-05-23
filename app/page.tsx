@@ -7,7 +7,7 @@ const schedule = [
   { time: "10:00", end: "11:00", label: "Presentación y calentamiento", main: false, hours: "1h" },
   { time: "11:00", end: "13:00", label: "Tecnificación", main: true, hours: "2h" },
   { time: "13:00", end: "15:00", label: "Comida (opcional) + Piscina", main: false, hours: "2h" },
-  { time: "16:00", end: "17:00", label: "Preparación física y dinámicas", main: false, hours: "1h" },
+  { time: "16:00", end: "17:00", label: "Dinámicas", main: false, hours: "1h" },
   { time: "17:00", end: "19:00", label: "Tecnificación", main: true, hours: "2h" },
   { time: "19:00", end: "20:00", label: "Competición, premios y cierre", main: false, hours: "1h" },
 ]
@@ -96,10 +96,12 @@ export default function Home() {
 
           <ScrollReveal delay={150}>
             <p className="text-white/50 text-center max-w-2xl mx-auto text-base sm:text-lg leading-relaxed mt-10">
-              Tecnificación avanzada de voleibol para jugadores y jugadoras a
-              partir de 16 años. Cada día se trabaja una posición específica con
-              entrenamiento intensivo y personalizado. Inscríbete solo al día de
-              tu posición y ven desde cualquier punto de España.
+              Tecnificación avanzada por y para los jugadores y jugadoras
+              olvidadas. Que seas mayor no significa que no tengas derecho a ser
+              mejor. Si tienes más de 16 años este es tu &ldquo;campus&rdquo;.
+              Cada día se trabaja una posición específica de manera intensiva.
+              Inscríbete los días que quieras venir y ven desde cualquier punto
+              de España a el mejor día del verano.
             </p>
           </ScrollReveal>
 
@@ -148,8 +150,8 @@ export default function Home() {
 
           <ScrollReveal delay={600}>
             <p className="text-center text-white/20 text-xs mt-10 tracking-wide">
-              Inscríbete solo al día de tu posición — una jornada completa de 10
-              horas
+              Inscríbete los días que quieras — una jornada completa de 10
+              horas por día
             </p>
           </ScrollReveal>
         </div>
