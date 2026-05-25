@@ -247,7 +247,7 @@ export default function Home() {
       <section className="py-20 sm:py-28 px-6 bg-gradient-to-b from-transparent via-red-950/[0.03] to-transparent">
         <div className="max-w-4xl mx-auto">
           <ScrollReveal>
-            <div className="grid md:grid-cols-2 gap-4">
+            <div className="grid md:grid-cols-3 gap-4">
               <div className="p-8 sm:p-10 border border-white/[0.06] hover:border-white/[0.12] transition-colors duration-500">
                 <div className="w-10 h-10 flex items-center justify-center border border-red-600/30 text-red-600 mb-5">
                   <svg
@@ -297,6 +297,43 @@ export default function Home() {
                   durante el descanso.
                 </p>
               </div>
+
+              <a
+                href="https://maps.app.goo.gl/1JtDGFQWu9KbWEfH8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-8 sm:p-10 border border-white/[0.06] hover:border-red-600/40 transition-colors duration-500 group"
+              >
+                <div className="w-10 h-10 flex items-center justify-center border border-red-600/30 text-red-600 mb-5">
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                    />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-bold mb-2 tracking-wide group-hover:text-red-600 transition-colors">
+                  Ubicación
+                </h3>
+                <p className="text-white/40 text-sm leading-relaxed">
+                  Valdetorres del Jarama Sports Center, Madrid.{" "}
+                  <span className="text-red-600/70 group-hover:text-red-500 transition-colors">
+                    Ver en Google Maps &rarr;
+                  </span>
+                </p>
+              </a>
             </div>
           </ScrollReveal>
         </div>
